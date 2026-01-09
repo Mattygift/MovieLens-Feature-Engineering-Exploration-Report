@@ -2,19 +2,19 @@
 
 ## Table of Content
 - [Project Overview](#project-overview)
-- [Dataset  Overview](Dataset-Overview)
-- [Tools](tools)
-- [Data Cleaning/Preparation](Data-Cleaning/Preparation)
-- [Feature Engineering](Feature-Engineering)
-- [Exploratory Data Analysis (EDA)](Exploratory-Data-Analysis-(EDA))
-- [Key Insights](Key-Insights)
-- [Conclusion & Future Recommendations](Conclusion-&-Future-Recommendations)
-- [Visualizations/Tables](Visualizations/Tables)
+- [Dataset Overview](#dataset-overview)
+- [Tools](#tools)
+- [Data Cleaning and Preparation](#data-cleaning-and-preparation)
+- [Feature Engineering](#feature-engineering)
+- [Exploratory Data Analysis](#exploratory-data-analysis)
+- [Key Insights](#key-insights)
+- [Conclusion and Future Recommendations](#conclusion-and-future-recommendations)
+- [Visualizations Tables](#visualizations-tables)
 
 ### Project Overview
 This report summarizes the process and findings from the project. The main goal is to learn and apply feature engineering and exploratory data analysis (EDA) on the MovieLens dataset to generate insights that could support a future recommendation system.
 
-### Dataset  Overview
+### Dataset Overview
 The dataset used is a small portion of the MovieLens dataset, containing movie ratings and metadata.
 Files used:
 * ratings.csv – Contains user IDs, movie IDs, ratings, and timestamps.
@@ -26,7 +26,7 @@ After merging, the dataset included: - userId: Unique identifier for each user. 
 * Excel to clean 
 * Python libraries like Panda,Matplotlib and Seaborn to visualize and  sumarize 
 
-### Data Cleaning/Preparation
+### Data Cleaning and Preparation
 In the initial Data preparation phase we preformed the following tasks:
 1. Data loading and inspection.
 2. Handling missing values.
@@ -45,7 +45,7 @@ We created six (6) new features to enrich the dataset and make it more suitable 
 |is_classic|1 if movie released before 2000, else 0|Helps compare older vs newer movies.|
 
 
-### Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis
 We performed exploratory analysis using Python libraries (pandas, matplotlib, seaborn) to visualize and summarize key patterns.
 * Distribution of Ratings
   - Most ratings are between 3.0 and 4.0, indicating generally positive reviews.
@@ -68,13 +68,13 @@ We performed exploratory analysis using Python libraries (pandas, matplotlib, se
 - Genre popularity – Drama and Comedy dominate the dataset.
 - Rating stability – Ratings have remained steady across years.
 
-### Conclusion & Future Recommendations
+### Conclusion and Future Recommendations
 This analysis demonstrates how feature engineering and EDA can uncover meaningful insights from raw data. 
 These insights can help inform a movie recommendation system in several ways:
   - Use avg_movie_rating and avg_user_rating for baseline predictions.
   - Combine genre and year-based trends to personalize recommendations.
   - Identify user preferences based on genre or time period.
 
-### Visualizations/Tables
+### Visualizations Tables
 
 
