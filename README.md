@@ -78,3 +78,9 @@ These insights can help inform a movie recommendation system in several ways:
 ### Visualizations Tables
 
 
+
+<img width="798" height="476" alt="Movielen Rating1" src="https://github.com/user-attachments/assets/85279964-600a-41ee-b7a2-ef77062770a2" />
+
+<img width="733" height="492" alt="Movielen Rating2 png" src="https://github.com/user-attachments/assets/66db4f55-539d-4ed5-b39f-74bd5a9b9226" />
+
+<img width="1100" height="442" alt="Movielen Rating 3 png" src="https://github.com/user-attachments/assets/d99355ab-5ac7-49b7-9d1e-c5699f56e286" />
